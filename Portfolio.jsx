@@ -67,7 +67,6 @@ const Portfolio = () => {
 
   return (
     <div className={`min-h-screen transition-colors duration-300 ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-900'}`}>
-      {/* Navigation */}
       <nav className={`fixed top-0 w-full z-50 backdrop-blur-md transition-all duration-300 ${darkMode ? 'bg-gray-900/80' : 'bg-white/80'} border-b ${darkMode ? 'border-gray-700' : 'border-gray-200'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
@@ -101,7 +100,6 @@ const Portfolio = () => {
         </div>
       </nav>
 
-      {/* Hero Section */}
       <section id="hero" className="pt-16 min-h-screen flex items-center justify-center relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 -z-10"></div>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -140,7 +138,6 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* About Section */}
       <section id="about" className={`py-20 ${darkMode ? 'bg-gray-800' : 'bg-gray-50'}`}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -184,7 +181,6 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Skills Section */}
       <section id="skills" className="py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -211,7 +207,6 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Projects Section */}
       <section id="projects" className={`py-20 ${darkMode ? 'bg-gray-800' : 'bg-gray-50'}`}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -259,7 +254,6 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Education Section */}
       <section id="education" className="py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -301,7 +295,6 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Contact Section */}
       <section id="contact" className={`py-20 ${darkMode ? 'bg-gray-800' : 'bg-gray-50'}`}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -329,7 +322,6 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className={`py-8 text-center ${darkMode ? 'bg-gray-900' : 'bg-white'} border-t ${darkMode ? 'border-gray-700' : 'border-gray-200'}`}>
         <p className={`${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
           © 2025 Ryan Ruppert. Alle Rechte vorbehalten.
@@ -338,5 +330,6 @@ const Portfolio = () => {
     </div>
   );
 };
+
 
 export default Portfolio;
