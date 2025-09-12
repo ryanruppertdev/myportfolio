@@ -1,0 +1,85 @@
+Erstelle ein komplettes, modernes, responsives React-Portfolio, das direkt auf Replit lauffähig ist. Das Portfolio soll sehr professionell, beeindruckend und stylish aussehen. Verwende React + Tailwind CSS + Framer Motion für Animationen. Alles soll responsive sein und auf Desktop, Tablet & Mobile gut aussehen. Stelle sicher, dass der Code fertig zum Ausführen auf Replit ist, inklusive package.json, Komponentenstruktur und Assets-Ordner.
+
+Inhalt & Struktur:
+
+Landing Page / Home
+
+Hero-Bereich mit meinem Logo und einem Bild von mir (von der Hüfte aufwärts)
+
+Animierter Begrüßungstext / CTA-Button
+
+Scroll-Animationen beim Herunterscrollen
+
+About / Skills
+
+Zeige alle meine Skills (z.B. HTML, CSS, JavaScript, React, Tailwind, API-Integration)
+
+Animierte Icons für jede Skill
+
+Fortschrittsbalken oder Radial Charts für Skill-Level
+
+Hover-Animationen auf Skills
+
+Projects / Showcase
+
+Grid oder Carousel mit Projekten (Webseiten & Webapps)
+
+Hover-Effekte + modale Detailansicht für jedes Projekt
+
+Filter nach Projekttyp möglich
+
+Jeder Projekt-Card zeigt Name, kurze Beschreibung, Tech-Stack, Screenshot/Mockup
+
+Contact
+
+Interaktives Kontaktformular (Name, E-Mail, Nachricht)
+
+Social Media Icons mit Hover-Effekten
+
+Animierter Sende-Button (Feedback bei Absenden)
+
+Design & Effekte:
+
+Modern, clean, stylish
+
+Viele Hover- & Scroll-Animationen
+
+Ladeanimationen beim Seitenaufbau
+
+Interaktive Features: Dark Mode Toggle, Projektfilter, Modal Popups
+
+Avatare, Icons, kleine Design-Details, die Professionalität ausstrahlen
+
+Technisch:
+
+React + Tailwind CSS + Framer Motion
+
+Komponentenstruktur sauber (z.B. components, pages, assets, App.js, index.js)
+
+Bereit zum Deployment auf Replit
+
+Vollständige package.json mit allen Abhängigkeiten
+
+Code sauber und gut kommentiert
+
+Responsiv (Desktop / Tablet / Mobile)
+
+Assets:
+
+Nutze mein Logo als Hauptlogo
+
+Bild von mir (von Hüfte aufwärts) im Hero-Bereich
+
+Icons und Avatare nach Bedarf
+
+Output Format:
+
+Gib mir den kompletten Code, Datei für Datei, so dass ich ihn direkt in Replit einfügen kann
+
+Zeige Struktur an (z.B. src/components/...)
+
+Erkläre am Ende kurz, wie ich das Projekt auf Replit starte
+
+Ziel:
+
+Ein Portfolio, das beeindruckt, professionell wirkt und meine Skills und Projekte optimal präsentiert
